@@ -25,7 +25,7 @@ public class PasswordCommandExecuter implements CommandExecutor{
 					if (tmpVars.isEnteringCode()) {
 						player.sendMessage(Language.TEXT_CODE + Language.getMaskedText(tmpPassword));
 						ButtonLock.checkPassword(tmpVars, tmpPassword.hashCode());
-						tmpVars.getCurrentClickedLockedButton().setUnlock(true);
+						//tmpVars.getCurrentClickedLockedButton().setUnlock(true);
 						tmpVars.setEnteringCode(false);
 						return true;
 					}

@@ -10,6 +10,8 @@ Locking able Buttons an Levers in Minecraft for Bukkit
 by: MrX13415
 
 Changelog:
+Version: 0.4 TriFix9
+    * FIX: Commented out line 28 of PasswordCommandExecuter.java
 Version: 0.4
     * ADD: Config file
     * ADD: Split save file into one file for each world.
